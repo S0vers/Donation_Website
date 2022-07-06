@@ -157,7 +157,6 @@ body p{
     color: black;
 }
 .email-input{
-    padding-top: 50px;
     display: flex;
     justify-content: center;
 }
@@ -176,7 +175,7 @@ body p{
     justify-content: center;
     align-items: center;
 }
-#email{
+input[type=text] {
     height: 50px;
     width: 275px;
     background-color: #D9D9D9;
@@ -185,13 +184,12 @@ body p{
     text-align: left;
     color: #AA9F9F;
     font-family: 'Times New Roman', Times, serif;
+    margin: none;
 }
-.sub{
+input[type=submit]{
     text-decoration: none;
-    height: 32px;
+    height: 50px;
     width: 175px;
-    padding-top: 15px;
-    padding-bottom: 5px;
     text-align: center;
     justify-content: center;
     background-color: #FF5959;
@@ -199,8 +197,9 @@ body p{
     font-weight: 400;
     color: white;
     border-radius: 0 5px 5px 0;
-
+    border: none;
 }
+
 .acheivments{
     display: flex;
     justify-content: center; 
