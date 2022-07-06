@@ -7,9 +7,16 @@ body {
 body h1 {
     font-family: 'Inter', sans-serif;
 }
+body p{
+    font-size: 18px;
+}
 
 .width {
     width: 100%;
+} 
+.half-width P{
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
 
 .header {
@@ -155,7 +162,7 @@ body h1 {
     justify-content: center;
 }
 
-.Yellow-box{
+.yellow-box{
     height: 200px;
     width: 809px;
     border-radius: 5px;
