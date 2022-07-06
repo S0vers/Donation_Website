@@ -121,6 +121,49 @@ body h1 {
     padding-top: 86px;
     text-align: center;
 }
+.boxes{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 88px;
+}
+.skyblue{
+    background-color: #4f9da64d;
+}
+.pastelred{
+    background-color: #ff59594b;
+}
+.pastelyellow{
+    background-color: rgba(218, 212, 137, 0.466);
+}
+.box{
+    height: 352px;
+    width: 360px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.box h2{
+    color: black;
+}
+.acheivments{
+    display: flex;
+    justify-content: center; 
+    height: 150px;
+    background-color: rgba(0, 128, 0, 0.226);
+
+}
+.text{
+    text-align: center;
+    border: none;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: rgb(122, 38, 38);
+    font-weight: 600;
+}
 
 .margin-right{
     margin-right: 3%;
